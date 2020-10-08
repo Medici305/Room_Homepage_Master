@@ -1,0 +1,19 @@
+{
+  "name": "room_homepage_master",
+  "version": "1.0.0",
+  "description": "Your challenge is to build out this e-commerce homepage and get it looking as close to the design as possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Medici305/Room_Homepage_Master.git"
+  },
+  "author": "Medici",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Medici305/Room_Homepage_Master/issues"
+  },
+  "homepage": "https://github.com/Medici305/Room_Homepage_Master#readme"
+}
