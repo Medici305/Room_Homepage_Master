@@ -12,7 +12,7 @@ html {
 /* Outermost Section */
 .container {
     display: grid;
-    grid: 65% 35% / 25% 32.5% 17.5% 25%;
+    grid: 65% 35% / 27.5% 30% 15% 27.5%;
     height: 100vh;
 }
 
@@ -104,7 +104,7 @@ nav li:hover::before {
 .content {
     display: grid;
     height: 100%;
-    grid: 80% 20% / 20.5% 20.5% 59%;
+    grid: 85% 15% / 17.6% 17.6% 64.8%;
 }
 
 .content .title {
