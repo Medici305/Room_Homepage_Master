@@ -10,8 +10,20 @@ $(document).ready(() => {
     const $buttonRight = $('.button-right');
     const $heading = $('#heading');
     const $description = $('#description');
-
+    
+    let menuOpen = false;
     let i = 0;
+
+    $('.menu-btn').on('click', event => {
+        if(!menuOpen) {
+            $(event.currentTarget).addClass('open');
+            menuOpen = true;
+            $(li).
+        } else {
+            $(event.currentTarget).removeClass('open');
+            menuOpen = false;
+        }
+    });
 
     const prev = () => {
         if (i <= 0 )
