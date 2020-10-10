@@ -18,10 +18,15 @@ $(document).ready(() => {
         if(!menuOpen) {
             $(event.currentTarget).addClass('open');
             menuOpen = true;
-            $(li).
+            $('.room').fadeOut();
+            $('.one').fadeIn()
+            $('.two').fadeIn()
+            $('.three').fadeIn()
+            $('.four').fadeIn()
         } else {
             $(event.currentTarget).removeClass('open');
             menuOpen = false;
+            $('.room').fadeIn();
         }
     });
 

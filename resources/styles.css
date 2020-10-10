@@ -415,7 +415,6 @@ nav li:hover::before {
         align-items: center;
         padding: 40px 60px;
         color: hsl(0, 0%, 100%);
-        border: 2px solid black;
     }
     
     nav .menu-btn {
@@ -423,11 +422,10 @@ nav li:hover::before {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100px;
+        width: 45px;
         height: 60px;
         cursor: pointer;
         transition: all 500ms ease-in-out;
-        border: 3px solid #ffffff;
     }
     
     nav .menu-btn_burger {
@@ -445,7 +443,7 @@ nav li:hover::before {
         position: absolute;
         width: 25px;
         height: 6px;
-        background: #fff;
+        background: #ffffff;
         border-radius: 5px;
         box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
         transition: all 500ms ease-in-out;
@@ -479,15 +477,16 @@ nav li:hover::before {
         font-size: 2.5rem;
         font-weight: 600;
         align-self: center;
-        width: 100%;
+        width: 50%;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 90px;
+        border: 2px solid black;
     }
     
     nav li {
         list-style-type: none;
-        font-size: 1.2rem;
-        margin-right: 25px;
+        font-size: 1.3rem;
+        margin-left: 27px;
         font-weight: 400;
         cursor: pointer;
         display: none;
